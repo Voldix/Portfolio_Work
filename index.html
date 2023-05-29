@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Icon -->
+    <link rel="shortcut icon" href="./img/portfolio-icon.png" type="image/x-icon">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Scripts -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header id="start">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container">
+                <a class="navbar-brand p-0 me-0 text-dark fw-bold fs-2" href="index.html">&#10003;PortfoliØ</a>
+                <button class="btn-toggler border border-2 border-dark rounded navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-bold" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-bold" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-bold" href="#contact">Contact info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-greeting">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="greeting-text-container">
+                            <h1 class="greeting-text-1 text-center">Hello, my name is <span class="name">Vladi Akhrem</span></h1>
+                            <h2 class="greeting-text-2 text-center">I am a junior web developer from Central Ostrobothnia and I am glad to welcome you here!</h2>
+                        </div>
+                        <div class="btn-more-container">
+                            <a class="btn-more text-uppercase text-decoration-none" href="#about">More</a>
+                        </div>
+                        <div class="arrow-down">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about d-flex flex-column justify-content-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="about-title text-center fs-1">Some Words About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center profile-pic-container">
+                        <img class="profile-pic" src="./img/profile_pic.jpg" alt="profile-picture">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <p class="about-text fs-5">Graduated in 2022 from the Centria University of Applied Sciences of Kokkola town, where completed the degree program in Bachelor of Engineering, Information Technology. At the moment, I position myself as a Front-end Developer.</p>
+                        <p class="about-text fs-5">After graduation, my choice was made in favor of Web Development, where I completely plunged headlong. I started with the basic things - HTML and CSS. I really liked making the layout of the pages - worked with mockups in Figma. Later, I mastered the skills of working with the Bootstrap framework for fast and adaptive layout. I am also improving my skills with JavaScript as well as libraries such as React and Jquery, and other stuff. In addition, I have work experience with small libraries - List.js and SweetAlert2.</p>
+                        <p class="last-p about-text fs-5">I have a great desire to become a member of the IT family, where I will be useful and will be able to make a significant contribution to the common cause, where I will constantly develop myself and my skills and be an integral part of one whole mechanism.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <section class="section-projects" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="projects-title text-center fs-1">Projects</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Website PiedPiper Clone</h3>
+                        <p class="project-description fs-5">The first project, which is the website PiedPiper clone was made for the purpose of practical application of knowledge and skills in the field of HTML layout and styling - CSS. The layout is created based on a template that has worked with in Figma. In addition, to correct errors and basic inconsistencies in different browsers, the normalize.css was used, as well as to improve the behavior of the site slightly. Written in pure HTML and CSS (not friendly for displays with a width of less than 768px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/PiedPiper_Clone">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-piedpiper-clone-layout.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/1_piedpiper.png" alt="piedpiper-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">The Blog Layout</h3>
+                        <p class="project-description fs-5">The aim of this project is similar to the first one - practice HTML layout and styling of the page. Unlike the previous project, normalize.css was not involved here and the work was made without any template. To add more, for a fast and adaptive layout, the Bootstrap framework of the 4th version was used for the first time - the first practice in this area can be also attributed to the aim of this project. Mobile-friendly with simple design (minimum screen width 320px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/Blog_Layout_BS">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-simple-layout-blog.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/2_blog.png" alt="blog-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Website Ubereats Clone</h3>
+                        <p class="project-description fs-5">Another clone of the Ubereats website consists of two pages - a list of restaurants and a page of the restaurant itself. The pages are linked to each other by links - clicking on any restaurant from the list takes you to the page of only one restaurant ("Pushkin"). The goals of the project remain the same - the practice of layout and styling as well as the practice of working with the framework Bootstrap v4. The work is done according to a mockup in Figma. Mobile-friendly (minimum screen width 320px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/UberEats_Clone">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-ubereats-clone-layout.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/3_ubereats.png" alt="ubereats-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Sign Up Page</h3>
+                        <p class="project-description fs-5">A simple signing-up page with a plain design to log into a system. The mini-project was created using pure HTML and CSS without any framework, while elementary JavaScript is responsible for the functionality. The user will not log in until the login requirements are met. Error notifications during registration will indicate the requirements. The page is mobile-friendly (minimum screen width 350px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/SignUp_Page">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-signup-page.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/4_signup.png" alt="signingup-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Simple ToDo App</h3>
+                        <p class="project-description fs-5">The next mini-project is the well-known To Do List application. The design here is from the category "easy as pie" as the emphasis was mostly on JavaScript. To make it adaptive for mobile devices, the Bootstrap framework is responsible for the layout, this time it is already a fresh 5th version. Besides adding, deleting, and marking completed tasks from the list, the user is able to observe the time and date in real-time as well as motivational phrases that replace each other. Moreover, the local storage stores the data in the local memory of the browser. (Minimum screen width 350px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/ToDoshka">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-todoshka.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/5_todo.png" alt="todo-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Simple JavaScript Test</h3>
+                        <p class="project-description fs-5">Simple JavaScript Test was written in JavaScript with the use of pure HTML and CSS with super easy design for checking your knowledge of JS fundamentals. The library SweetAlert2 for modal windows plays an insignificant role here (used only when getting the maximum number of points). Let's try to get less than 10 points first, then from 11 to 18, before getting the maximum of 21 points, try to earn 19 or 20. The test is mobile-friendly (minimum screen width 350px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/SimpleJS_Test">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-simple-js-test.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/6_jstest.png" alt="js-test-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Test System Of The Shopping Cart</h3>
+                        <p class="project-description fs-5">This project is the cart test system for online store written in JavaScript with the use of Bootstrap 5 and libraries such as List.js and SweetAlert2, which are responsible for the search engine and modal windows. The cart test system uses local storage for storing data. This system allows to add a new product and then move it to the cart with the display of the total cost, where it is also available to specify a discount. In addition to the basic removal of the products, it is possible to search for a specific product in the list. The system is mobile-friendly.</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/TestSys_Online_Cart">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-test-system-cart.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/7_testsystem.png" alt="test-system-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Text Shadow Generator</h3>
+                        <p class="project-description fs-5">This basic text-shadow generator allows adjusting the shadow parameters by choosing the appropriate one. The user is able to observe the changes in these parameters in real-time and see the result of the text shadow on the top of the display. Finally, at the output, we are getting the CSS code, which can be used for other projects. The work is written in JavaScript language, or rather using the Jquery library. For better adaptation, Bootstrap 5 is responsible for the layout. The generator is mobile-friendly as well.</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/TextShadowGen_JQ">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-text-shadow-genjq.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/8_textshadow.png" alt="text-shadow-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Sneakers Online Store</h3>
+                        <p class="project-description fs-5">The online sneaker store was created by using pure JavaScript where modules and Parcel Bundler were involved. The main emphasis was placed on the correct functioning of the shopping cart with the right displaying between three pages, along with storing all changes by using session storage this time. Bootstrap 5 was chosen for the layout of adaptive content, where CSS played a small role to adjust some elements. The project is mobile-friendly (minimum screen width 350px).</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/Online_Store_SneakerHeart">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-sneakers-online-store.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/9_sneakersstore.png" alt="sneakers-store-picture">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center left-side">
+                        <h3 class="project-name">Cooking App</h3>
+                        <p class="project-description fs-5">This recipe application, which was created entirely with the help of the React JS library, allows the user to save recipes for cooking without wasting time searching in the future. Besides adding new recipes and deleting existing ones, there is also the possibility of editing each recipe individually in live mode as well as the function of searching for the desired recipe among the list, and all these changes are saved in the browser by using local storage. Unfortunately, this app is not mobile-friendly</p>
+                        <div class="buttons-container">
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://github.com/Voldix/React_Recipes">Source Code</a>
+                            <a target="_blank" class="btn-link fs-5 text-decoration-none" href="https://portfolio-react-app-recipe.netlify.app">See Live</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                        <img class="project-pic" src="./img/10_cookingapp.png" alt="recipe-picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <section class="section-contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title fs-1 text-center">Contact Information</h2>
+                        <p class="fs-5 text-center m-0 text-white">Phone number: <span class="fw-bold">+358 41 579 9592</span></p>
+                        <p class="fs-5 text-center m-0 text-white">Email address: <span class="fw-bold">antony.beam@yandex.ru</span></p>
+                        <p class="closing-text fs-5 text-center text-white">Please do not hesitate to contact me at any time! I will wait.</p>
+                        <div class="icon-links-container text-center">
+                            <a class="text-decoration-none" href="mailto:antony.beam@yandex.ru">
+                                <img class="icon-links-img" src="./img/mail.png" alt="email-logo">
+                            </a>
+                            <a target="_blank" class="text-decoration-none" href="https://www.linkedin.com/in/vladi-akhrem-435960251/">
+                                <img class="icon-links-img" src="./img/linkedin.png" alt="linkedin-logo">
+                            </a>
+                            <a target="_blank" class="text-decoration-none" href="https://github.com/Voldix">
+                                <img class="icon-links-img" src="./img/github.png" alt="github-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="footer-text fs-5 text-center text-white">© 2023 - Developed by Vladi Akhrem</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <a href="#start" class="btn-up">↑</a>
+    </div>
+</body>
+
+</html>
